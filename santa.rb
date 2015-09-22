@@ -10,7 +10,7 @@ if (!ARGV.empty?)
         end
     end
 else
-    puts "USAGE: #{0} filename (one name per line)"
+    puts "USAGE: #{$0} filename (one name per line)"
     puts "\nSince you didn't give me a filename, I'll just use my own list"
     names = ["Mark", "Rick", "Steve", "Sue", "Tom", "Chris", "Maxwell"]
 end
